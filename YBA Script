@@ -1,4 +1,5 @@
 -- This file was generated using Luraph Obfuscator v13.4.4
+repeat wait() until game:IsLoaded()
 for i,v in pairs(getconnections(game.Players.LocalPlayer.Idled)) do
 v:Disable()
 end
